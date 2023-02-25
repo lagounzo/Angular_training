@@ -1,0 +1,19 @@
+<h2>Bienvenue sur mon formulaire de contact</h2>
+<div class="container-fluid">
+  <form [formGroup]="formulaireadjoumani" class="style" (ngSubmit)="submit()">
+    <div class="mb-4">
+      <label class="form-label">Nom</label>
+      <input type="text" formControlName="name" class="form-control" id="" aria-describedby="" >
+    </div>
+    <div class="mb-4">
+      <label for="" class="form-label">Prenom</label>
+      <input type="text" formControlName="prenom" class="form-control" id="">
+    </div>
+    <div class="mb-4">
+      <label for="" class="form-label">Telephone</label>
+      <input type="text" formControlName="telephone" class="form-control" id="">
+    </div>
+    <button type="submit" class="btn btn-pri">Valider</button>
+  </form>
+
+</div>
